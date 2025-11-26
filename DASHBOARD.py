@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import google.generativeai as genai
 
-key = "AIzaSyBNt2sp4wTjiLI5hwk6EkIppLUSJCPQDC0"
+key = "ENTER_YOUR_KEY"
 genai.configure(api_key=key)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
